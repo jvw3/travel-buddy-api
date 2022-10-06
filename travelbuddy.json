@@ -1,0 +1,831 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Admin",
+      "email": "admin@travelbuddy.com",
+      "hometown": "N/A",
+      "isAdmin": true,
+      "isSuspended": false
+    },
+    {
+      "fullName": "Jonathan Woodard",
+      "email": "woodard@gmail.com",
+      "hometown": "Nashville, TN",
+      "isAdmin": false,
+      "isSuspended": false,
+      "id": 2
+    },
+    {
+      "fullName": "Chesterfield Listenbee",
+      "email": "chester@gmail.com",
+      "hometown": "San Diego, CA",
+      "isAdmin": false,
+      "isSuspended": true,
+      "id": 3
+    },
+    {
+      "fullName": "Mike Jones",
+      "email": "who@mikejones.com",
+      "hometown": "Houston, TX",
+      "isAdmin": false,
+      "isSuspended": false,
+      "id": 4
+    },
+    {
+      "fullName": "Amy Woodard",
+      "email": "amy@gmail.com",
+      "hometown": "Nashville, TN",
+      "isAdmin": false,
+      "isSuspended": false,
+      "id": 5
+    },
+    {
+      "fullName": "Cameron Brown",
+      "email": "cameron@gmail.com",
+      "hometown": "Los Angeles, CA",
+      "isAdmin": false,
+      "isSuspended": false,
+      "id": 6
+    },
+    {
+      "fullName": "Riley Jean",
+      "email": "rigatoni@gmail.com",
+      "hometown": "Nashville, TN",
+      "isAdmin": false,
+      "isSuspended": false,
+      "id": 7
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "name": "Hiking"
+    },
+    {
+      "id": 2,
+      "name": "Escape Room"
+    },
+    {
+      "id": 3,
+      "name": "Bowling"
+    },
+    {
+      "id": 4,
+      "name": "Tour"
+    },
+    {
+      "id": 5,
+      "name": "Breakfast"
+    },
+    {
+      "id": 6,
+      "name": "Lunch"
+    },
+    {
+      "id": 7,
+      "name": "Brunch"
+    },
+    {
+      "id": 8,
+      "name": "Dinner"
+    },
+    {
+      "name": "Axe throwing",
+      "id": 9
+    },
+    {
+      "name": "Comedy show",
+      "id": 10
+    },
+    {
+      "name": "Putt Putt golf",
+      "id": 11
+    },
+    {
+      "name": "Kayaking",
+      "id": 12
+    },
+    {
+      "name": "Pottery Class ",
+      "id": 13
+    },
+    {
+      "name": "NBA Game ",
+      "id": 14
+    },
+    {
+      "name": "Golfing ",
+      "id": 15
+    },
+    {
+      "name": "Rave",
+      "id": 16
+    },
+    {
+      "name": "Bar hopping",
+      "id": 17
+    },
+    {
+      "name": "Sightseeing",
+      "id": 18
+    },
+    {
+      "name": "Biking",
+      "id": 19
+    },
+    {
+      "name": "zoo",
+      "id": 20
+    },
+    {
+      "name": "Arcade ",
+      "id": 21
+    },
+    {
+      "name": "Beach trip",
+      "id": 22
+    }
+  ],
+  "itineraryActivities": [
+    {
+      "itineraryId": 14,
+      "activityId": 9,
+      "description": "Miami Axe throwing",
+      "address": "1111 South East ave",
+      "activityDateTime": "2022-10-26T15:24",
+      "review": {
+        "rating": "",
+        "description": "Axe throwing was so much fun!!!"
+      },
+      "isPublic": true,
+      "isComplete": true,
+      "isFavorited": true,
+      "reviewIdentity": "Jonathan Woodard",
+      "id": 1
+    },
+    {
+      "itineraryId": 8,
+      "activityId": 17,
+      "description": "Boston Bar Crawl",
+      "address": "23 E boston ave.",
+      "activityDateTime": "2022-09-30T20:12",
+      "review": {
+        "rating": "",
+        "description": "The Boston Bar Crawl was a great time."
+      },
+      "isPublic": true,
+      "isComplete": true,
+      "isFavorited": true,
+      "reviewIdentity": "Jonathan Woodard",
+      "id": 3
+    },
+    {
+      "itineraryId": 14,
+      "activityId": 7,
+      "description": "Las Olas Brunch",
+      "address": "fasfdsafd",
+      "activityDateTime": "2022-10-13T10:35",
+      "review": {
+        "rating": "",
+        "description": "The Brunch was so good!! The food was perfect"
+      },
+      "isPublic": true,
+      "isComplete": true,
+      "isFavorited": false,
+      "reviewIdentity": "Jonathan Woodard",
+      "id": 5
+    },
+    {
+      "itineraryId": 14,
+      "activityId": 3,
+      "description": "Stars and Strikes",
+      "address": "12 South blvd",
+      "activityDateTime": "2022-10-10T11:32",
+      "review": {
+        "rating": "",
+        "description": "Stars and Strikes is awesome!! They have bowling, arcade, axe throwing and bumper cars."
+      },
+      "isPublic": true,
+      "isComplete": true,
+      "isFavorited": true,
+      "reviewIdentity": "Jonathan Woodard",
+      "id": 6
+    },
+    {
+      "itineraryId": 14,
+      "activityId": 10,
+      "description": "Chuckles Comedy Bar",
+      "address": "afdasfdafd",
+      "activityDateTime": "2022-10-13T11:43",
+      "review": {
+        "rating": "",
+        "description": "The hardest Ive laughed in a long time!!!"
+      },
+      "isPublic": true,
+      "isComplete": true,
+      "isFavorited": false,
+      "reviewIdentity": "Jonathan Woodard",
+      "id": 7
+    },
+    {
+      "itineraryId": 21,
+      "activityId": 8,
+      "description": "Ruth Chris",
+      "address": "234 West Mountain st., Nashville, TN",
+      "activityDateTime": "2022-10-13T16:27",
+      "review": {
+        "rating": "",
+        "description": "The food at Ruth Chris is some of the best I've had recently. The only downside is the service could be better. "
+      },
+      "isPublic": true,
+      "isComplete": true,
+      "isFavorited": false,
+      "reviewIdentity": "Jonathan Woodard",
+      "id": 8
+    },
+    {
+      "itineraryId": 14,
+      "activityId": 18,
+      "description": "South Beach",
+      "address": "South Beach",
+      "activityDateTime": "2022-10-20T16:33",
+      "review": {
+        "rating": "",
+        "description": "Beautiful beach but way too many people!"
+      },
+      "isPublic": true,
+      "isComplete": true,
+      "isFavorited": false,
+      "reviewIdentity": "Jonathan Woodard",
+      "id": 9
+    },
+    {
+      "itineraryId": 7,
+      "activityId": 14,
+      "description": "Houston Rockets Game",
+      "address": "Houston Rockets Arena",
+      "activityDateTime": "2022-10-05T08:19",
+      "review": {
+        "rating": "",
+        "description": "Houston Rockets game was amazing!!! The atmosphere is unreal."
+      },
+      "isPublic": true,
+      "isComplete": true,
+      "isFavorited": false,
+      "reviewIdentity": "Chesterfield Listenbee",
+      "id": 11
+    },
+    {
+      "itineraryId": 7,
+      "activityId": 20,
+      "description": "Houston zoo",
+      "address": "3124 Northside dr., Houston, TX",
+      "activityDateTime": "2022-10-09T08:19",
+      "review": {
+        "rating": "",
+        "description": "There are so many cool animals at the zoo and its a great place to take your family!"
+      },
+      "isPublic": true,
+      "isComplete": true,
+      "isFavorited": false,
+      "reviewIdentity": "Chesterfield Listenbee",
+      "id": 12
+    },
+    {
+      "itineraryId": 7,
+      "activityId": 21,
+      "description": "Houston Barcarde",
+      "address": "2343 SW st.  ",
+      "activityDateTime": "2022-10-06T08:25",
+      "review": {
+        "rating": "",
+        "description": "This arcade sucks!! and if you like it, I hate you!!"
+      },
+      "isPublic": true,
+      "isComplete": true,
+      "isFavorited": false,
+      "reviewIdentity": "Chesterfield Listenbee",
+      "id": 13
+    },
+    {
+      "itineraryId": 23,
+      "activityId": 22,
+      "description": "South Beach",
+      "address": "Southbeach blvd",
+      "activityDateTime": "2022-10-05T10:50",
+      "review": {
+        "rating": "",
+        "description": "South beach was fun, but it was way too many people"
+      },
+      "isPublic": true,
+      "isComplete": true,
+      "isFavorited": false,
+      "reviewIdentity": "Jonathan Woodard",
+      "id": 14
+    }
+  ],
+  "itineraries": [
+    {
+      "travelMethod": "flight",
+      "flightInfo": {
+        "flightToDestinationTime": "22:30",
+        "returnFlightTime": "11:30",
+        "departingAirport": "BNA",
+        "returnAirport": "Boston",
+        "departingAirline": "Southwest ",
+        "returningAirline": "Southwest",
+        "departFlightNum": "SW 4254",
+        "returnFlightNum": "SW 2454"
+      },
+      "rentalCarInfo": {
+        "reservationTime": "2022-09-24T14:30",
+        "carDropOffTime": "2022-09-25T14:30",
+        "rentalCompany": "Enterprise",
+        "reservationNum": "238957432"
+      },
+      "departureDate": "2022-09-22",
+      "returnDate": "2022-09-26",
+      "isShared": false,
+      "isComplete": false,
+      "isCurrent": false,
+      "accessCode": 109288,
+      "id": 6
+    },
+    {
+      "travelMethod": "flight",
+      "flightInfo": {
+        "flightToDestinationTime": "18:35",
+        "returnFlightTime": "05:40",
+        "departingAirport": "BNA",
+        "returnAirport": "FLL",
+        "departingAirline": "Delta",
+        "returningAirline": "Delta",
+        "departFlightNum": "DELTA 2542",
+        "returnFlightNum": "DELTA 4254"
+      },
+      "rentalCarInfo": {
+        "reservationTime": "2022-09-21T14:30",
+        "carDropOffTime": "2022-09-28T14:35",
+        "rentalCompany": "Avis ",
+        "reservationNum": "320423"
+      },
+      "departureDate": "2022-10-01",
+      "returnDate": "2022-10-07",
+      "isShared": false,
+      "isComplete": false,
+      "isCurrent": true,
+      "accessCode": 54133,
+      "id": 7
+    },
+    {
+      "travelMethod": "flight",
+      "flightInfo": {
+        "flightToDestinationTime": "17:45",
+        "returnFlightTime": "18:45",
+        "departingAirport": "BNA",
+        "returnAirport": "Boston",
+        "departingAirline": "Spirit",
+        "returningAirline": "Delta",
+        "departFlightNum": "Delta 3243",
+        "returnFlightNum": "Spirit 2343"
+      },
+      "rentalCarInfo": {
+        "reservationTime": "2022-09-30T20:45",
+        "carDropOffTime": "2022-10-13T14:42",
+        "rentalCompany": "Avis ",
+        "reservationNum": "32094324"
+      },
+      "departureDate": "2022-09-30",
+      "returnDate": "2022-10-04",
+      "isShared": false,
+      "isComplete": true,
+      "isCurrent": false,
+      "accessCode": 57052,
+      "id": 8
+    },
+    {
+      "travelMethod": "flight",
+      "flightInfo": {
+        "flightToDestinationTime": "12:45",
+        "returnFlightTime": "14:40",
+        "departingAirport": "BNA",
+        "returnAirport": "FLL",
+        "departingAirline": "American",
+        "returningAirline": "American",
+        "departFlightNum": "AA 1123",
+        "returnFlightNum": "AA 2435"
+      },
+      "rentalCarInfo": {
+        "reservationTime": "2022-09-29T09:39",
+        "carDropOffTime": "2022-10-06T09:39",
+        "rentalCompany": "Avis ",
+        "reservationNum": "324253"
+      },
+      "departureDate": "2022-09-29",
+      "returnDate": "2022-10-07",
+      "isShared": false,
+      "isComplete": false,
+      "isCurrent": false,
+      "accessCode": 45496,
+      "id": 10
+    },
+    {
+      "travelMethod": "flight",
+      "flightInfo": {
+        "flightToDestinationTime": "22:15",
+        "returnFlightTime": "06:15",
+        "departingAirport": "BNA",
+        "returnAirport": "FLL",
+        "departingAirline": "Delta",
+        "returningAirline": "Delta",
+        "departFlightNum": "DL 2344",
+        "returnFlightNum": "DL 4253"
+      },
+      "rentalCarInfo": {
+        "reservationTime": "2022-09-30T13:14",
+        "carDropOffTime": "2022-09-30T13:14",
+        "rentalCompany": "Enterprise ",
+        "reservationNum": "2345243"
+      },
+      "departureDate": "2022-09-29",
+      "returnDate": "2022-10-01",
+      "isShared": false,
+      "isComplete": true,
+      "isCurrent": false,
+      "accessCode": 39712,
+      "id": 14
+    },
+    {
+      "travelMethod": "flight",
+      "flightInfo": {
+        "flightToDestinationTime": "20:05",
+        "returnFlightTime": "08:05",
+        "departingAirport": "ATL",
+        "returnAirport": "BNA",
+        "departingAirline": "Southwest",
+        "returningAirline": "Southwest ",
+        "departFlightNum": "2352",
+        "returnFlightNum": "32435"
+      },
+      "rentalCarInfo": {
+        "reservationTime": "2022-10-12T17:05",
+        "carDropOffTime": "2022-10-12T17:05",
+        "rentalCompany": "Enterprise",
+        "reservationNum": "54154234"
+      },
+      "departureDate": "2022-10-16",
+      "returnDate": "2022-10-22",
+      "isShared": false,
+      "isComplete": false,
+      "isCurrent": false,
+      "accessCode": 60488,
+      "id": 21
+    },
+    {
+      "travelMethod": "flight",
+      "flightInfo": {
+        "flightToDestinationTime": "2022-10-11T08:10",
+        "returnFlightTime": "2022-10-17T09:10",
+        "departingAirport": "BNA",
+        "returnAirport": "FLL",
+        "departingAirline": "Southwest",
+        "returningAirline": "Southwest",
+        "departFlightNum": "SW 2343",
+        "returnFlightNum": "SW 3243"
+      },
+      "rentalCarInfo": {
+        "reservationTime": "2022-10-05T08:11",
+        "carDropOffTime": "2022-10-07T08:11",
+        "rentalCompany": "Enterprise",
+        "reservationNum": "425442"
+      },
+      "departureDate": "2022-10-04",
+      "returnDate": "2022-10-08",
+      "isShared": false,
+      "isComplete": true,
+      "isCurrent": false,
+      "accessCode": 56323,
+      "id": 23
+    }
+  ],
+  "userItineraries": [
+    {
+      "userId": 3,
+      "itineraryId": 6,
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "itineraryId": 7,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "itineraryId": 8,
+      "id": 8
+    },
+    {
+      "userId": 4,
+      "itineraryId": 10,
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "itineraryId": 14,
+      "id": 14
+    },
+    {
+      "userId": 2,
+      "itineraryId": 21,
+      "id": 21
+    },
+    {
+      "userId": 2,
+      "itineraryId": 23,
+      "id": 23
+    }
+  ],
+  "itineraryLocations": [
+    {
+      "itineraryId": 6,
+      "locationId": 10,
+      "id": 6
+    },
+    {
+      "itineraryId": 7,
+      "locationId": 11,
+      "id": 7
+    },
+    {
+      "itineraryId": 8,
+      "locationId": 9,
+      "id": 8
+    },
+    {
+      "itineraryId": 10,
+      "locationId": 10,
+      "id": 10
+    },
+    {
+      "itineraryId": 14,
+      "locationId": 10,
+      "id": 14
+    },
+    {
+      "itineraryId": 21,
+      "locationId": 1,
+      "id": 21
+    },
+    {
+      "itineraryId": 23,
+      "locationId": 10,
+      "id": 23
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "city": "Nashville",
+      "state": "TN",
+      "country": "United States",
+      "latitude": 36.17,
+      "longitude": -86.76,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1608258598684-3118606cfdaa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 2,
+      "city": "New York City",
+      "state": "NY",
+      "country": "United States",
+      "latitude": 40.71,
+      "longitude": -74,
+      "tripsviewcitypic": ""
+    },
+    {
+      "id": 3,
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "United States",
+      "latitude": 34.05,
+      "longitude": -118.24,
+      "tripsviewcitypic": ""
+    },
+    {
+      "id": 4,
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "United States",
+      "latitude": 37.77,
+      "longitude": -122.4194,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80"
+    },
+    {
+      "id": 5,
+      "city": "Chicago",
+      "state": "IL",
+      "country": "United States",
+      "latitude": 41.87,
+      "longitude": -87.62,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1494522855154-9297ac14b55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 6,
+      "city": "Washington",
+      "state": "DC",
+      "country": "United States",
+      "latitude": 38.9,
+      "longitude": -77.03,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1463839346397-8e9946845e6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+    },
+    {
+      "id": 7,
+      "city": "San Diego",
+      "state": "CA",
+      "country": "United States",
+      "latitude": 32.71,
+      "longitude": -117.16,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1617142584114-730e9bda61b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+    },
+    {
+      "id": 8,
+      "city": "Las Vegas",
+      "state": "NV",
+      "country": "United States",
+      "latitude": 32.71,
+      "longitude": -117.16,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1581351721010-8cf859cb14a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 9,
+      "city": "Boston",
+      "state": "MA",
+      "country": "United States",
+      "latitude": 36.17,
+      "longitude": -115.13,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1573524949339-b830334a31ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+    },
+    {
+      "id": 10,
+      "city": "Miami",
+      "state": "FL",
+      "country": "United States",
+      "latitude": 25.76,
+      "longitude": -80.19,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1562517634-baa2da3acfbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80"
+    },
+    {
+      "id": 11,
+      "city": "Houston",
+      "state": "TX",
+      "country": "United States",
+      "latitude": 25.76,
+      "longitude": -80.19,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1510623425998-4894a2ad0da9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+    },
+    {
+      "id": 12,
+      "city": "Austin",
+      "state": "TX",
+      "country": "United States",
+      "latitude": 30.26,
+      "longitude": -97.74,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1557335200-a65f7f032602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=879&q=80"
+    },
+    {
+      "id": 13,
+      "city": "Denver",
+      "state": "CO",
+      "country": "United States",
+      "latitude": 39.73,
+      "longitude": -104.99,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1617050377733-49ee1a99f37d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+    },
+    {
+      "id": 14,
+      "city": "Phoenix",
+      "state": "AZ",
+      "country": "United States",
+      "latitude": 33.44,
+      "longitude": -112.074,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1589046207215-b5ee3097bafc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvZW5peCUyMGFyaXpvbmF8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 14,
+      "city": "Seattle",
+      "state": "WA",
+      "country": "United States",
+      "latitude": 47.6,
+      "longitude": -122.33,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1535581652167-3a26c90bbf86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 15,
+      "city": "Dallas",
+      "state": "TX",
+      "country": "United States",
+      "latitude": 32.77,
+      "longitude": -96.79,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1631662760570-8f7b52d09fdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+    },
+    {
+      "id": 16,
+      "city": "Atlanta",
+      "state": "GA",
+      "country": "United States",
+      "latitude": 33.74,
+      "longitude": -84.38,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 17,
+      "city": "New Orleans",
+      "state": "LA",
+      "country": "United States",
+      "latitude": 29.95,
+      "longitude": -90.07,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1616463539061-adcd0d7664de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 18,
+      "city": "Tampa",
+      "state": "FL",
+      "country": "United States",
+      "latitude": 27.95,
+      "longitude": -82.45,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1561063139-e183e66909c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 19,
+      "city": "Kansas City",
+      "state": "MO",
+      "country": "United States",
+      "latitude": 39.09,
+      "longitude": -94.57,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1536622638768-9403a9d35a1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 20,
+      "city": "Portland",
+      "state": "OR",
+      "country": "United States",
+      "latitude": 45.51,
+      "longitude": -122.67,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1582203410996-f2af25fb9776?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
+    },
+    {
+      "id": 21,
+      "city": "San Antonio",
+      "state": "TX",
+      "country": "United States",
+      "latitude": 29.42,
+      "longitude": -98.49,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1514510249063-e0faf6c6ec0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+    },
+    {
+      "id": 22,
+      "city": "Minneapolis",
+      "state": "MN",
+      "country": "United States",
+      "latitude": 44.97,
+      "longitude": -93.26,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1567693221917-fefc994808ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1018&q=80"
+    },
+    {
+      "id": 23,
+      "city": "Charleston",
+      "state": "SC",
+      "country": "United States",
+      "latitude": 32.77,
+      "longitude": -79.93,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1623608103477-2b90432a3f85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+    },
+    {
+      "id": 24,
+      "city": "Charlotte",
+      "state": "NC",
+      "country": "United States",
+      "latitude": 35.22,
+      "longitude": -80.84,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1562762394-3acfba62a48e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    },
+    {
+      "id": 25,
+      "city": "Honolulu",
+      "state": "HI",
+      "country": "United States",
+      "latitude": 21.3,
+      "longitude": -157.85,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1507876466758-bc54f384809c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1509&q=80"
+    },
+    {
+      "id": 26,
+      "city": "Orlando",
+      "state": "FL",
+      "country": "United States",
+      "latitude": 28.58,
+      "longitude": -81.37,
+      "tripsviewcitypic": "https://images.unsplash.com/photo-1605723517503-3cadb5818a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    }
+  ]
+}
