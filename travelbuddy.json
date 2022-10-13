@@ -477,8 +477,8 @@
       "departureDate": "2022-09-09",
       "returnDate": "2022-09-12",
       "isShared": false,
-      "isComplete": false,
-      "isCurrent": true,
+      "isComplete": true,
+      "isCurrent": false,
       "accessCode": 60488,
       "id": 21
     },
@@ -524,7 +524,7 @@
         "reservationTime": "2022-10-14T15:00",
         "carDropOffTime": "2022-10-17T15:00",
         "rentalCompany": "Enterprise",
-        "reservationNum": ""
+        "reservationNum": "6456546"
       },
       "departureDate": "2022-10-14",
       "returnDate": "2022-10-17",
@@ -533,6 +533,32 @@
       "isCurrent": false,
       "accessCode": 89506,
       "id": 24
+    },
+    {
+      "travelMethod": "",
+      "flightInfo": {
+        "flightToDestinationTime": "2022-10-07T18:37",
+        "returnFlightTime": "2022-10-09T18:38",
+        "departingAirport": "BNA",
+        "returnAirport": "LV",
+        "departingAirline": "Southwest",
+        "returningAirline": "Southwest",
+        "departFlightNum": "SW 6346",
+        "returnFlightNum": "SW 4235"
+      },
+      "rentalCarInfo": {
+        "reservationTime": "2022-10-07T18:38",
+        "carDropOffTime": "2022-10-09T18:38",
+        "rentalCompany": "Enterprise",
+        "reservationNum": ""
+      },
+      "departureDate": "2022-10-07",
+      "returnDate": "2022-10-09",
+      "isShared": false,
+      "isComplete": false,
+      "isCurrent": true,
+      "accessCode": 11684,
+      "id": 25
     }
   ],
   "userItineraries": [
@@ -575,6 +601,11 @@
       "userId": 2,
       "itineraryId": 24,
       "id": 24
+    },
+    {
+      "userId": 2,
+      "itineraryId": 25,
+      "id": 25
     }
   ],
   "itineraryLocations": [
@@ -617,6 +648,11 @@
       "itineraryId": 24,
       "locationId": 10,
       "id": 24
+    },
+    {
+      "itineraryId": 25,
+      "locationId": 8,
+      "id": 25
     }
   ],
   "locations": [
