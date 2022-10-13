@@ -152,7 +152,7 @@
       "itineraryId": 14,
       "activityId": 9,
       "description": "Miami Axe throwing",
-      "address": "1111 South East ave",
+      "address": "1111 South East ave, Miami, FL",
       "activityDateTime": "2022-10-26T15:24",
       "review": {
         "rating": "",
@@ -184,7 +184,7 @@
       "itineraryId": 14,
       "activityId": 7,
       "description": "Las Olas Brunch",
-      "address": "fasfdsafd",
+      "address": "823 NW st., Miami, FL",
       "activityDateTime": "2022-10-13T10:35",
       "review": {
         "rating": "",
@@ -216,7 +216,7 @@
       "itineraryId": 14,
       "activityId": 10,
       "description": "Chuckles Comedy Bar",
-      "address": "afdasfdafd",
+      "address": "894 South blvd., Miami, FL",
       "activityDateTime": "2022-10-13T11:43",
       "review": {
         "rating": "",
@@ -240,7 +240,7 @@
       },
       "isPublic": true,
       "isComplete": true,
-      "isFavorited": false,
+      "isFavorited": true,
       "reviewIdentity": "Jonathan Woodard",
       "id": 8
     },
@@ -465,8 +465,8 @@
         "returnAirport": "BNA",
         "departingAirline": "Southwest",
         "returningAirline": "Southwest ",
-        "departFlightNum": "2352",
-        "returnFlightNum": "32435"
+        "departFlightNum": "2350",
+        "returnFlightNum": "3243"
       },
       "rentalCarInfo": {
         "reservationTime": "2022-10-12T17:05",
@@ -478,7 +478,7 @@
       "returnDate": "2022-10-22",
       "isShared": false,
       "isComplete": false,
-      "isCurrent": false,
+      "isCurrent": true,
       "accessCode": 60488,
       "id": 21
     },
