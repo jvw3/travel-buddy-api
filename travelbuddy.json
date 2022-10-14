@@ -507,6 +507,32 @@
       "isCurrent": false,
       "accessCode": 56323,
       "id": 23
+    },
+    {
+      "travelMethod": "",
+      "flightInfo": {
+        "flightToDestinationTime": "2022-10-14T09:30",
+        "returnFlightTime": "2022-10-17T19:30",
+        "departingAirport": "BNA",
+        "returnAirport": "FLL",
+        "departingAirline": "Southwest",
+        "returningAirline": "Southwest",
+        "departFlightNum": "SW 9304",
+        "returnFlightNum": "SW 2523"
+      },
+      "rentalCarInfo": {
+        "reservationTime": "2022-10-14T19:30",
+        "carDropOffTime": "2022-10-17T16:30",
+        "rentalCompany": "Enterprise",
+        "reservationNum": ""
+      },
+      "departureDate": "2022-10-14",
+      "returnDate": "2022-10-17",
+      "isShared": false,
+      "isComplete": false,
+      "isCurrent": false,
+      "accessCode": 21832,
+      "id": 24
     }
   ],
   "userItineraries": [
@@ -544,6 +570,11 @@
       "userId": 2,
       "itineraryId": 23,
       "id": 23
+    },
+    {
+      "userId": 2,
+      "itineraryId": 24,
+      "id": 24
     }
   ],
   "itineraryLocations": [
@@ -581,6 +612,11 @@
       "itineraryId": 23,
       "locationId": 10,
       "id": 23
+    },
+    {
+      "itineraryId": 24,
+      "locationId": 10,
+      "id": 24
     }
   ],
   "locations": [
