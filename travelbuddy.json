@@ -21,7 +21,7 @@
       "email": "chester@gmail.com",
       "hometown": "San Diego, CA",
       "isAdmin": false,
-      "isSuspended": true,
+      "isSuspended": false,
       "id": 3
     },
     {
