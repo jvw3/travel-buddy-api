@@ -323,24 +323,6 @@
       "isFavorited": false,
       "reviewIdentity": "Jonathan Woodard",
       "id": 14
-    },
-    {
-      "itineraryId": 24,
-      "activityId": 0,
-      "description": "qrerew",
-      "activityDateTime": "",
-      "review": {
-        "rating": "",
-        "description": ""
-      },
-      "isPublic": false,
-      "isComplete": false,
-      "isFavorited": false,
-      "reviewIdentity": "",
-      "flags": [
-        0
-      ],
-      "id": 15
     }
   ],
   "itineraries": [
@@ -477,8 +459,8 @@
     {
       "travelMethod": "flight",
       "flightInfo": {
-        "flightToDestinationTime": "20:05",
-        "returnFlightTime": "08:05",
+        "flightToDestinationTime": "2022-10-07T21:27",
+        "returnFlightTime": "2022-10-10T21:27",
         "departingAirport": "ATL",
         "returnAirport": "BNA",
         "departingAirline": "Southwest",
@@ -487,13 +469,13 @@
         "returnFlightNum": "3243"
       },
       "rentalCarInfo": {
-        "reservationTime": "2022-10-12T17:05",
-        "carDropOffTime": "2022-10-12T17:05",
+        "reservationTime": "2022-10-07T17:05",
+        "carDropOffTime": "2022-10-10T17:05",
         "rentalCompany": "Enterprise",
         "reservationNum": "54154234"
       },
-      "departureDate": "2022-10-16",
-      "returnDate": "2022-10-22",
+      "departureDate": "2022-10-07",
+      "returnDate": "2022-10-10",
       "isShared": false,
       "isComplete": false,
       "isCurrent": true,
