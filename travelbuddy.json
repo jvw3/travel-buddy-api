@@ -325,38 +325,6 @@
       "id": 14
     },
     {
-      "itineraryId": 24,
-      "activityId": 22,
-      "description": "South Beach ",
-      "address": "South beach blvd",
-      "activityDateTime": "2022-10-14T12:48",
-      "review": {
-        "rating": "",
-        "description": "south beach trip was awesome!!!"
-      },
-      "isPublic": false,
-      "isComplete": true,
-      "isFavorited": true,
-      "reviewIdentity": "Jonathan Woodard",
-      "id": 15
-    },
-    {
-      "itineraryId": 24,
-      "activityId": 23,
-      "description": "Miami Dolphins game",
-      "address": "Miami Dolphins stadium",
-      "activityDateTime": "2022-10-16T14:00",
-      "review": {
-        "rating": "",
-        "description": "game was so much fun!!!"
-      },
-      "isPublic": true,
-      "isComplete": true,
-      "isFavorited": false,
-      "reviewIdentity": "Jonathan Woodard",
-      "id": 16
-    },
-    {
       "itineraryId": 25,
       "activityId": 6,
       "description": "Green Street Meats",
