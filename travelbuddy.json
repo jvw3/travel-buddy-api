@@ -323,6 +323,24 @@
       "isFavorited": false,
       "reviewIdentity": "Jonathan Woodard",
       "id": 14
+    },
+    {
+      "itineraryId": 24,
+      "activityId": 0,
+      "description": "qrerew",
+      "activityDateTime": "",
+      "review": {
+        "rating": "",
+        "description": ""
+      },
+      "isPublic": false,
+      "isComplete": false,
+      "isFavorited": false,
+      "reviewIdentity": "",
+      "flags": [
+        0
+      ],
+      "id": 15
     }
   ],
   "itineraries": [
